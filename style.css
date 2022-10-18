@@ -35,7 +35,14 @@ body{
     color : black;
     font-weight: 400;
     font-size: 18px;
-    margin: 25px 25px 25px 25px;
+    margin: 20px 20px 20px 20px;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.cabeçalho-menu-item:hover{
+    background-color: #606060;
+
 }
 
 .conteudo{
@@ -123,6 +130,7 @@ body{
 }
 
 .rodape-pint{
+    align-items: center;
     padding: 32px;
     border-top: 0.4 px solid #FFF2E7;
     display: flex;
@@ -131,5 +139,5 @@ body{
 
 .icones-sociais{
     align-items: center;
-    display: flex;
+    display: inline-block;
 }
