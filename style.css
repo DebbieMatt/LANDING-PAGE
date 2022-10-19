@@ -131,6 +131,10 @@ body{
     text-align: center;
 }
 
+footer#rodape p{
+    text-align: center;
+}
+
 .rodape-pint{
     align-items: center;
     padding: 32px;
