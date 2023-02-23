@@ -84,7 +84,7 @@ body{
 
 .conteudo-principal-escrito-botao{
     align-items: center;
-    background-color: beige;
+    background-color: rgb(172, 172, 83);
     width : 180px ;
     height : 60px ;
     border : none;
@@ -93,7 +93,7 @@ body{
     font-family: 'Newsreader', serifa;
     font-weight: 400;
     font-size: 24px;
-    color: grey;
+    color:  #36494e;
     margin: 0 auto;
 }
 
@@ -133,19 +133,19 @@ body{
     text-align: center;
 }
 
-footer#rodape p{
-    text-align: center;
+footer {
+    line-height: 50px;
+    height: 100px;
+    padding: 28px;
 }
 
-.rodape-pint{
-    align-items: center;
-    padding: 32px;
-    border-top: 0.4 px solid #FFF2E7;
-    display: flex;
-    margin: auto;
+footer ul {
+    float: right;
+    display: table;
 }
 
-.icones-sociais{
-    align-items: center;
-    display: inline-block;
+footer ul li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
 }
